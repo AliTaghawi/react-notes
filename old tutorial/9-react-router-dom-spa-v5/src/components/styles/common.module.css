@@ -1,0 +1,8 @@
+.common {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  padding-top: 120px;
+  min-height: 100vh;
+  background-color: lightblue;
+}

@@ -1,0 +1,112 @@
+.cart {
+  min-height: calc(100vh - 100px);
+}
+
+.mainContainer aside,
+.clear,
+.checkout {
+  width: calc(100% - 2rem);
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 2rem 4rem;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px #5f27cd;
+  text-align: center;
+}
+
+.clear h4,
+.checkout h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #5f27cd;
+  margin-bottom: 3.5rem;
+}
+
+.mainContainer .checkoutButton,
+.clear a,
+.checkout a {
+  text-decoration: none;
+  background-color: #5f27cd;
+  padding: 7px 12px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.mainContainer .checkoutButton:hover,
+.clear a:hover,
+.checkout a:hover {
+  background-color: #341f97;
+}
+
+.mainContainer {
+  width: calc(100% - 2rem);
+  max-width: 1100px;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.mainContainer aside {
+  width: calc(100% - 2rem);
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  text-align: unset;
+  margin: 0;
+  padding: 1rem;
+}
+
+.mainContainer aside p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.mainContainer aside p span {
+  font-weight: 700;
+  color: #5f27cd;
+}
+
+.mainContainer aside div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.mainContainer .checkoutButton {
+  font-size: .9rem;
+}
+
+.mainContainer .clearButton {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #5f27cd;
+  border: none;
+  background-color: unset;
+  padding: 7px 12px;
+  border-radius: 5px;
+}
+
+.mainContainer .clearButton:hover {
+  color: #341f97;
+  background-color: rgba(94, 39, 205, 0.1);
+}
+
+.mainContainer .cardContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}

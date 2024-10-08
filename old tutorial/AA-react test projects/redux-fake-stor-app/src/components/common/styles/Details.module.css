@@ -1,0 +1,173 @@
+.productDetails {
+  width: calc(100% - 2rem);
+  max-width: 1100px;
+  height: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 5px #5f27cd;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.imageContainer {
+  width: 300px;
+  min-width: 300px;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.descrip h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #341f97;
+}
+
+.descrip p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.category {
+  display: flex;
+  justify-content: fle;
+  align-items: center;
+  gap: .5rem;
+}
+
+.category span:first-child {
+  font-size: .95rem;
+  font-weight: 600;
+  color: #ee5253;
+}
+
+.category span:nth-child(2) {
+  font-weight: 600;
+  color: #2e86de;
+}
+
+.price p {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 5px;
+  background-color: #feca57;
+  color: green;
+  font-weight: 600;
+}
+
+
+.price .fee {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  margin-left: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: green;
+}
+
+.price .fee p {
+  margin: 0;
+}
+
+
+.footer {
+  width: 100%;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #5f27cd;
+}
+
+.footer a:hover {
+  color: #341f97;
+}
+
+.footer button {
+  background-color: #5f27cd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: .9rem;
+  font-weight: 600;
+  min-height: 30px;
+}
+
+.footer button {
+  background-color: #5f27cd;
+  padding: 5px 12px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: .7;
+  font-weight: 600;
+}
+
+.footer button:hover {
+  background-color: #341f97;
+}
+
+.footer .add {
+  font-size: .9rem;
+  line-height: 1.4;
+}
+
+.footer>div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: .5rem;
+}
+
+.footer img {
+  width: 17px;
+}
+
+.price .fee span,
+.footer span {
+  align-self: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ff6b6b;
+  /* color: #ff9f43; */
+  /* padding: 2px 4px; */
+  /* background-color: #00d2d3; */
+}
