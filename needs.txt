@@ -18,11 +18,12 @@ npm install {
   react-router-dom
   query-string
   react-toastify
-  redux
+  //redux = منسوخ شده
+  @reduxjs/toolkit
   react-redux
-  redux-logger
-  redux-devtools-extension /=> {composeWithDevTools}
-  redux-thunk
+  redux-logger 
+  redux-devtools-extension /=> {composeWithDevTools} 
+  // redux-thunk = منسوخ شده
   @apollo/client graphql
   sanitize-html
   formik
