@@ -33,6 +33,8 @@ npm install {
   stylis stylis-plugin-rtl /=> {material ui 'rtl'}
   react-loader-spinner
   recharts
+  @tanstack/react-query
+  @tanstack/react-query-devtools
 }
 
 sites for use {
