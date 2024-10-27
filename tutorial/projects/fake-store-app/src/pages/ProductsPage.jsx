@@ -1,6 +1,7 @@
 import React from "react";
 import { useProducts } from "../contexts/ProductsContext";
 import Card from "../components/Card";
+import Loader from "../components/Loader";
 
 const ProductsPage = () => {
   const product = useProducts();
@@ -8,7 +9,7 @@ const ProductsPage = () => {
   return (
     <div className="flex justify-between">
       <div className="w-full flex justify-between flex-wrap">
-        {!product.length && <h1>Loading...</h1>}
+        {!product.length && <Loader />}
         {product.map((p) => (
           <Card key={p.id} data={p} />
         ))}
